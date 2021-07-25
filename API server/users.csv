@@ -1,0 +1,5 @@
+Connection Type,Hostname,MAC-Address,IP,Operating System,Last Seen,Workgroup/Domain
+Remote,arsenal,EF:86:7F:AE:8E:9F,216.216.123.4,Windows,undefined,undefined
+Local,arsenal,EF:86:7F:AE:8E:9F,216.216.123.4,Windows,undefined,undefined
+Local,vm1.internal.cloudapp.net,undefined,10.0.0.4,Linux,undefined,undefined
+Local,vm2.internal.cloudapp.net,12:34:56:78:9A:BC,10.0.0.5,Linux,Thu Jul 22 14:31:16 2021,undefined

@@ -1,0 +1,188 @@
+:root {
+    --theme-bg-color: rgba(16 18 27 / 40%);
+    --border-color: rgba(113 119 144 / 25%);
+    --theme-color: #f9fafb;
+    --inactive-color: rgb(113 119 144 / 78%);
+    --body-font: "Poppins", sans-serif;
+    --hover-menu-bg: rgba(12 15 25 / 30%);
+    --content-title-color: #999ba5;
+    --content-bg: rgb(146 151 179 / 13%);
+    --button-inactive: rgb(249 250 251 / 55%);
+    --dropdown-bg: #21242d;
+    --dropdown-hover: rgb(42 46 60);
+    --popup-bg: rgb(22 25 37);
+    --search-bg:  #14162b;
+    --overlay-bg: rgba(36, 39, 59, 0.3);
+    --scrollbar-bg: rgb(1 2 3 / 40%);
+   }
+
+body {
+    font-family: rgb(255 255 255 / 40%);
+    background-image: url(./macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-5120x2880-1432.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 98%;
+    height: 95vh;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50%;
+    position:relative;
+    display: inline;
+    left: 10px;
+    top:12px;
+}
+
+.search-bar {
+    height: 6.5vh;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    padding-left: 16px;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+   
+#id_of_textbox {
+    color: cornsilk;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--search-bg);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 20px 0 40px;
+    box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56.966 56.966' fill='%23717790c7'%3e%3cpath d='M55.146 51.887L41.588 37.786A22.926 22.926 0 0046.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 00.083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z'/%3e%3c/svg%3e");
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: 16px 48%;
+}
+
+#history-btn {
+    color: #fff;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2vh;
+    margin: 5px;
+    box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
+    cursor: pointer;
+}
+
+.app {
+background-color: var(--theme-bg-color);
+max-width: 1050px;
+max-height: 860px;
+height: 80vh;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+width: 100%;
+border-radius: 14px;
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+font-size: 15px;
+font-weight: 500;
+}
+
+.app-header{
+    background-color: rgb(153 158 180 / 40%);
+    max-width: 1050px;
+    max-height: 860px;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 14px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    /* min-width: 400px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.582); */
+    box-shadow: 14px -8px 20px 0px rgb(0 0 0 / 50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.styled-table thead tr {
+    background-color: #8b8ba070;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #756e6e52;
+    color: cornsilk;
+}
+
+/* .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #47444418;
+} */
+
+.bottom-message a:visited{
+    text-decoration: none;
+    background-color: cornsilk;
+}
+
+.bottom-message{
+    margin-top: 10px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(228, 225, 225);
+    border-radius: 10px;
+}
+   

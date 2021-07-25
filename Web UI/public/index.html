@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM OP</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js" defer></script>
+    <script src="./backend.js" defer crossorigin="anonymous"></script>
+
+    <div class="app-header">
+        <div>
+            <img src="./logo.png" alt="Team_OP" class="logo"/>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search" id="id_of_textbox">
+        </div>
+        <input type="button" id="history-btn" value="Show History">
+    </div>
+
+    <div class="app">
+        <div class="d-flex overflow-auto" >
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Connection Type</th>
+                        <th>Hostname</th>
+                        <th>MAC-Address</th>
+                        <th>IP Address</th>
+                        <th>Operating System</th>
+                        <th>Last Seen</th>
+                        <th>Workgroup/Domain</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>        
+    </div>
+
+    <div class="bottom-message">
+        TeamOP | <a href="https://github.com/winoffrg" style="color:beige;">Rohan Gupta</a> • <a href="https://github.com/Bhavye-Malhotra" style="color:beige;">Bhavye Malhotra</a> • <a href="https://github.com/QueshAnmak"  style="color:beige;">Samriddh Jain</a> | Flipkart Grid 3.0
+    </div>
+
+</body>
+</html>
