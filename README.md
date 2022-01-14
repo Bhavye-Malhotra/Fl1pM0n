@@ -52,4 +52,16 @@ In our opinion, you’d be daft not to! Having such a tool in place will let you
 ## Demo Video
 [![Screenshot](https://img.youtube.com/vi/A3u3_C1lL-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=A3u3_C1lL-s)
 
-Made by Bhavye Malhotra, Samriddh Jain and Rohan Gupta.
+## Contributors ✨
+
+Thanks goes to these wonderful people.
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/dscciem/Pentesting-and-Hacking-Scripts/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dscciem/Pentesting-and-Hacking-Scripts" />
+</a>
+		</td>
+	</tr>
+</table>
